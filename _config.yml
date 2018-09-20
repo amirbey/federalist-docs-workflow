@@ -23,10 +23,10 @@ github_username:  jeremyzilar
 
 include: ["_pages"]
 
-github_org: "GSA"
-github_repo: "digitalgov-workflow"
-workflow_org: "GSA"
-workflow_repo: "digitalgov.gov"
+github_org: "amirbey"
+github_repo: "federalist-docs-workflow"
+workflow_org: "amirbey"
+workflow_repo: "federalist-docs"
 
 
 # Build settings
@@ -37,17 +37,19 @@ markdown: kramdown
 #   # - jemoji
 
 jekyll_get:
-  - data: posts
-    json: 'https://digital.gov/posts/index.json'
-  - data: events
-    json: 'https://digital.gov/events/index.json'
-  - data: services
-    json: 'https://digital.gov/services/index.json'
-  - data: communities
-    json: 'https://digital.gov/communities/index.json'
-  - data: resources
-    json: 'https://digital.gov/resources/index.json'
-  - data: tags
-    json: 'https://digital.gov/tag/v1/json/'
-  - data: categories
-    json: 'https://digital.gov/categories/v1/json/'
+  - data: pages
+    json: 'https://federalist-proxy-staging.app.cloud.gov/site/amirbey/federalist-docs/pages/index.json'
+  # - data: posts
+  #   json: 'https://digital.gov/posts/index.json'
+  # - data: events
+  #   json: 'https://digital.gov/events/index.json'
+  # - data: services
+  #   json: 'https://digital.gov/services/index.json'
+  # - data: communities
+  #   json: 'https://digital.gov/communities/index.json'
+  # - data: resources
+  #   json: 'https://digital.gov/resources/index.json'
+  # - data: tags
+  #   json: 'https://digital.gov/tag/v1/json/'
+  # - data: categories
+  #   json: 'https://digital.gov/categories/v1/json/'
